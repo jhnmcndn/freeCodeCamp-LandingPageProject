@@ -7,7 +7,7 @@
 
 html,
 body {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   font-family: "Red Hat Text", sans-serif;
   font-size: 62.5%;
 }
@@ -85,14 +85,50 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+.email-notification .email-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .email-notification h2 {
   font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 2.7rem;
+}
+
+.email-notification input[type="email"] {
+  color: #00000080;
+  background: #7986c733;
+  font-size: 1.2rem;
+  width: 191px;
+  height: 30px;
+  padding: 7px 14px;
+  border-radius: 0.5rem;
+  margin-bottom: 1.4rem;
+  border: 0;
+}
+
+.email-notification input[type="submit"] {
+  background: #f73f52e5;
+  color: #f6f6f6;
+  font-weight: 500;
+  font-size: 1.6rem;
+  width: 136px;
+  height: 30px;
+  padding: 4px auto;
+  border-radius: 0.5rem;
+  border: 0;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
