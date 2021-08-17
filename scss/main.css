@@ -40,7 +40,7 @@ body {
 
 #header #nav-bar ul li {
   list-style: none;
-  margin-left: 51px;
+  margin-left: 5.1rem;
 }
 
 #header #nav-bar ul li .nav-link {
@@ -54,7 +54,45 @@ body {
   height: auto;
 }
 
-.test {
-  height: 300vh;
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.email-notification {
+  margin-top: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.email-notification h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2.7rem;
 }
 /*# sourceMappingURL=main.css.map */
