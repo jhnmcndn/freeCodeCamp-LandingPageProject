@@ -131,4 +131,34 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+#features {
+  margin-top: 11.3rem;
+  margin-bottom: 9.9rem;
+}
+
+#features .three-content-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 9.9rem;
+}
+
+#features .three-content-desc .details {
+  margin-left: 6.1rem;
+}
+
+#features .three-content-desc .details h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+#features .three-content-desc .details p {
+  font-size: 1.6rem;
+  color: #000000b3;
+}
 /*# sourceMappingURL=main.css.map */

@@ -42,7 +42,6 @@
   width: 80%;
   margin: 0 auto;
   height: 100%;
-  // outline: 1px solid red;
 }
 
 .email-notification {
@@ -50,7 +49,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // outline: 1px solid blue;
 
   .email-display {
     display: flex;
@@ -91,6 +89,31 @@
   }
 }
 
+// section-features
+#features {
+  margin-top: 11.3rem;
+  margin-bottom: 9.9rem;
 
-// section-features 
+  .three-content-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9.9rem;
+
+    .details {
+      margin-left: 6.1rem;
+
+      h2 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-bottom: 0.8rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+        color: $black-opacity70;
+      }
+    }
+  }
+}
+
 
