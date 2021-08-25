@@ -50,7 +50,7 @@ body {
 }
 
 #header #nav-bar #header-img {
-  width: 366px;
+  max-width: 366px;
   height: auto;
 }
 
@@ -163,7 +163,7 @@ body {
 
 #pricing {
   margin-top: 9.9rem;
-  margin-bottom: 17.8rem;
+  margin-bottom: 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,6 +231,41 @@ body {
   border-radius: 0.5rem;
   padding: 0 1.7rem;
   cursor: pointer;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid #00000080;
+}
+
+footer .footer-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5.3rem 0;
+}
+
+footer .footer-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-container ul li {
+  list-style: none;
+  margin-right: 3.1rem;
+  margin-bottom: 1.2rem;
+}
+
+footer .footer-container ul li a {
+  font-size: 2.4rem;
+  color: #000000b3;
+  text-decoration: none;
+}
+
+footer .footer-container p {
+  font-size: 1.6rem;
+  color: #000000b3;
 }
 
 @media (max-width: 1240px) {
